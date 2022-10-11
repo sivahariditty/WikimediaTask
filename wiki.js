@@ -1,7 +1,8 @@
 function loadSearch(){
    var xR = new XMLHttpRequest();
    xR.onload = function() {
-	 setData(xR.responseText);
+      if(this.readyState === 4 && this.status === 200)
+         setData(xR.responseText);
    };
    Lang = document.getElementById("LangSelect").value;
    Qry = document.getElementById("Query").value;
