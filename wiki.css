@@ -1,0 +1,46 @@
+.boundbox{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  #max-width:40%;
+}
+
+.item{
+  margin-right: 10px;
+  margin-left: 10px;
+  border-top: solid;
+  border-left: solid;
+  border-right: solid;
+  border-color:  #e6e6e6;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+
+.imgbox{
+  margin-right: 10px;
+  margin-left: 10px;
+  width : 10%;
+  float:left;
+}
+
+.itmimg {
+  width: calc(100% - 6px);
+}
+
+.txtbox{
+}
+
+.header {
+   font-size: 18px;
+}
+.lstitem {
+  background-color: #e6e6e6;
+  min-height : 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+}
